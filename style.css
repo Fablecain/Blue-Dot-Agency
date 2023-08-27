@@ -1,4 +1,13 @@
-* {
+ 
+:root {
+    --white: #ffffff;
+    --med-blue: #0072bb;
+    --margin-10: 10px auto;
+    --max-width1: 150px;
+    --marg-bot: 32px;
+}
+
+*      {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -12,7 +21,7 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .header h1 {
@@ -42,7 +51,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -87,18 +96,18 @@ p {
 }
 
 .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: var(--marg-bot);
+    color: var(--white);
 }
 
 .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: var(--marg-bot);
+    color: var(--white);
 }
 
 .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: var(--marg-bot);
+    color: var(--white);
 }
 
 .benefit-lead h3 {
@@ -118,20 +127,20 @@ p {
 
 .benefit-lead img {
     display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin: var(--margin-10);
+    max-width: var(--max-width1);
 }
 
 .benefit-brand img {
     display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin: var(--margin-10);
+    max-width: var(--max-width1);
 }
 
 .benefit-cost img {
     display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin: var(--margin-10);
+    max-width: var(--max-width1);
 }
 
 .search-engine-optimization {
@@ -139,8 +148,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--med-blue);
+    color: var(--white);
 }
 
 .online-reputation-management {
@@ -148,8 +157,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--med-blue);
+    color: var(--white);
 }
 
 .social-media-marketing {
@@ -157,8 +166,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--med-blue);
+    color: var(--white);
 }
 
 .search-engine-optimization img {
@@ -198,20 +207,13 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 768px) {
     header {
-      background-color: #772014;
-      color:#bb8588
+      flex-direction: column;
     }
- 
-}
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
+  
+    main {
+      max-width: 1200px;
     }
   }
-@media screen and (max-width: 576px) {
-  .sample-img {
-    background-color: #8ac4ff;
-  }
-}
