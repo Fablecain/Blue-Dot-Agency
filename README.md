@@ -1,4 +1,4 @@
-# Blue-Dot-Agency
+# Blue Dot Agency
 
 Module 1 Boot Camp Challenge Website
 
