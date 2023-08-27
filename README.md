@@ -6,7 +6,7 @@ Module 1 Boot Camp Challenge Website
 
 -This project was built for a marketing agency trying to better understand and deliver its services to a customer.
 
--We used HTML to format the website on the back-end in order to carry out task thatd best fit the customers user story!
+-We used HTML to format the website on the back-end in order to carry out task that'd best fit the customers user story!
 
 -We also added CSS for the front-end to style the webpage to give a more user friendly application.
 
