@@ -30,9 +30,4 @@ Module 1 Boot Camp Challenge Website
 https://github.com/coding-boot-camp/urban-octo-telegram/blob/main/Develop/index.html
 
 ## Features
-
-
-## How To Contribute
-
-
-## Tests
+-Click the links on the header of the website to interact with the webpage!
