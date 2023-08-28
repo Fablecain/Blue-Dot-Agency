@@ -17,6 +17,8 @@ Module 1 Boot Camp Challenge Website
 ## Installation
 
 -Type in the URL or click the link to get started! Nice, simple and easy to maneuver!
+https://fablecain.github.io/Blue-Dot-Agency/
+![Screenshot (1)](https://github.com/Fablecain/Blue-Dot-Agency/assets/139589280/586579c0-c06c-416e-9c12-9476bcfbaaaa)
 
 ## Usage
 
