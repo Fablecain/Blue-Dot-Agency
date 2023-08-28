@@ -16,7 +16,7 @@ Module 1 Boot Camp Challenge Website
 
 ## Installation
 
--Type in the URL or click the link to get started! Nice and simple and easy to maneuver!
+-Type in the URL or click the link to get started! Nice, simple and easy to maneuver!
 
 ## Usage
 
